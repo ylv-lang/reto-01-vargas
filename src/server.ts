@@ -937,6 +937,7 @@ const port =
 
 app.listen(
   port,
+  "0.0.0.0",
   () => {
     console.log(
       `Servidor iniciado en puerto ${port}`

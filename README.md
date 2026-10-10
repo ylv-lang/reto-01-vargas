@@ -26,7 +26,7 @@ Ejecuta las herramientas de los cuatro casos sin necesitar clave del modelo. Los
 - `OPENAI_MODEL`: modelo de OpenAI (por defecto `gpt-4o-mini`).
 - `PORT`: puerto HTTP (3000 por defecto).
 - `MAX_TOOL_ITERATIONS`: máximo de ciclos de herramienta/modelo (máximo efectivo 25).
-- `MAX_SESSION_TOKENS`: reservado para límite de tokens por sesión; pendiente de enforcement.
+- `MAX_SESSION_TOKENS`: reservado para límite de tokens por sesión; (30000).
 
 ## API
 - `POST /api/chat` `{ "sessionId": "...", "message": "..." }` → `{ sessionId, reply, toolCalls, needsConfirmation }`
